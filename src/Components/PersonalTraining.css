@@ -1,0 +1,104 @@
+.personal-training {
+    font-family: "Arial", sans-serif;
+    padding-bottom: 80px; /* Ensure there's space at the bottom for the button */
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-img {
+    width: 200%;
+    height: 350px;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* About Section */
+  .about-section {
+    margin-top: 50px;
+    padding: 20px 0;
+  }
+  
+  /* Training Types */
+  .training-types {
+    margin-top: 50px;
+  }
+  
+  .training-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .training-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .training-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Fee Section */
+  .fee-section {
+    margin-top: 30px;
+  }
+  
+  .fee-card {
+    background: #f8f9fa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .fee-card h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Call to Action */
+  .cta {
+    background: #007bff;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    z-index: 100;  /* Ensure it's above other content */
+    width: 100%;
+  }
+  
+  .cta .btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    width: auto;  /* Make sure the button width adjusts according to content */
+  }
+  
+  /* Booking Form */
+  .booking-form {
+    margin-bottom: 80px; /* Space for CTA button */
+  }
+  
+  /* Footer */
+  footer {
+    position: relative;
+    z-index: 1;
+    padding: 20px 0;
+    background-color: #f8f9fa; /* Optional: style the footer */
+  }
+  

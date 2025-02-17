@@ -1,0 +1,49 @@
+.home {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Ensure no content exceeds the boundary */
+}
+
+.home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay effect */
+    transition: background 0.01s ease; /* Smooth background transition */
+    z-index: -1; /* Ensure it stays behind the text */
+}
+
+.home:hover::before {
+    background: rgba(0, 0, 0, 0.7); /* Darker overlay on hover */
+}
+
+.home .overlay {
+    transition: transform 0.01s ease, color 0.3s ease;
+    z-index: 1; /* Ensure text is above the background */
+}
+
+.home:hover .overlay {
+    transform: scale(1.1); /* Slightly enlarge the text */
+    color: #f0e68c; /* Change text color on hover */
+}
+
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Text shadow for better contrast */
+}
+
+.home p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Subtle text shadow */
+}
