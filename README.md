@@ -67,7 +67,11 @@ The provided App.js file is the main entry point for your React application. It 
 - This application will open up to a Home Page with a navbar and background image of gym along with the about section. Then it would be followed by services we offer in our gym. Then the gallery of the gym and the contact box for reaching out to us in case of any queries. It is lastly followed by the footer all the way down.
 - The navbar links are functional and navigates the user to the desired section of the page that the user seeks to look for.
 - Navigation has also been used in the services section where the user when clicks on any of the services, it would navigate the user to a new page to guide the user regarding the different service plans and information along with the fee structure for that and the booking of a session.
-- This application makes use of routing, many functions, porps, react-hooks, css styling, boostrap framework, import and export functions. 
+- This application makes use of routing, many functions, porps, react-hooks, css styling, boostrap framework, import and export functions.
+
+
+## Static Website Deployment On Render - 
+https://fitness-app-ik7s.onrender.com
 
 
 ## Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
